@@ -6,7 +6,9 @@ export default function Guess(props) {
     <>
       <div className="tileRow">
         {guess.split("").map((letter, index) => (
-          <div className="tile">{letter}</div>
+          <div className="tile" key={index}>
+            {letter}
+          </div>
         ))}
       </div>
     </>
