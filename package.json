@@ -1,18 +1,22 @@
 {
-  "name": "reactwordle",
+  "name": "react-wordle",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^1.0.7",
-    "vite": "^2.8.0"
+    "@types/react": "^18.2.36",
+    "@types/react-dom": "^18.2.14",
+    "@vitejs/plugin-react": "^4.1.1",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
   }
 }
